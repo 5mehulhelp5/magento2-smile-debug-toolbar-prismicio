@@ -1,0 +1,9 @@
+.smile-toolbar .align-top {
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.smile-toolbar .field-cover pre {
+    max-height: 5rem;
+    text-overflow: fade;
+}

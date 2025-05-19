@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Elgentos\PrismicIO\Block\Overview">
+        <plugin name="elgentos-prismicio-block-overview-plugin" type="Elgentos\SmileDebugToolbarPrismicIO\Plugin\Block\OverviewPlugin" sortOrder="1" disabled="false"/>
+    </type>
+    <type name="Elgentos\PrismicIO\Model\Api">
+        <plugin name="elgentos-prismicio-model-api-plugin" type="Elgentos\SmileDebugToolbarPrismicIO\Plugin\Model\ApiPlugin" sortOrder="1" disabled="false"/>
+    </type>
+
+    <type name="Smile\DebugToolbar\Observer\AddZones">
+        <arguments>
+            <argument name="blockFactories" xsi:type="array">
+                <item name="search" xsi:type="object" sortOrder="100">Elgentos\SmileDebugToolbarPrismicIO\Block\Zone\PrismicIOFactory</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

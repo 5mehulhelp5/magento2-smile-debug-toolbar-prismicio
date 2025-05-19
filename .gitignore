@@ -1,0 +1,16 @@
+# Ignore vendor directory
+vendor/
+
+# Ignore env.php file
+app/etc/env.php
+
+# Ignore generated files
+var/
+generated/
+pub/static/
+pub/media/
+
+# Ignore IDE configuration files
+.nbproject/
+.idea/
+.vscode/

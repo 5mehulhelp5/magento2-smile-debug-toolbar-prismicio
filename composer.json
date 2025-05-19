@@ -1,0 +1,21 @@
+{
+    "name": "elgentos/magento2-smile-debug-toolbar-prismicio",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Elgentos\\SmileDebugToolbarPrismicIO\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jerke Combee",
+            "email": "jerke@elgentos.nl"
+        }
+    ],
+    "require": {
+        "elgentos/module-prismicio": "*",
+        "smile/module-debug-toolbar": "*"
+    }
+}
