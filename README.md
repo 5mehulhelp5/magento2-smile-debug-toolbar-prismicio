@@ -2,6 +2,10 @@
 
 This module provides a debug bar for PrismicIO in Magento 2.
 
+## Prerequisites
+
+Before installing this extension you are required to install the [Smile Debug Toolbar](https://github.com/Smile-SA/magento2-module-debug-toolbar).
+
 ## Installation
 
 To install this module, run the following command in your terminal:
